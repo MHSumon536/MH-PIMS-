@@ -1087,9 +1087,13 @@
                 <button class="action-btn" onclick="toggleLanguage()">
                     <i class="fa-solid fa-language"></i> <span id="langBtnText">English</span>
                 </button>
+                </a>                        
+                 <a href="https://mhsumon536.github.io/MH-PIMS-/" target="_blank" class="action-btn" style="text-decoration: none; border-radius: 12px; box-shadow: var(--shadow);">
+                  <i class="fa-solid fa-sitemap" style="color: var(--accent-green);"></i> <span data-bn="ওয়েব" data-en="Web">ওয়েব</span>
+                  </a>
                 <button class="action-btn" onclick="shareApp()">
                     <i class="fa-solid fa-share-nodes"></i> <span data-bn="শেয়ার" data-en="Share">শেয়ার</span>
-                </button>
+                </button>                
             </div>
 
             <div style="margin-top: 10px;">
@@ -1278,26 +1282,29 @@ MH PIMS:  ব্যক্তিগত তথ্য ব্যবস্থাপ�
         // --- 1. More Menu Configuration ---
         // ==========================================
         const moreMenuConfig = [
+            { url: "https://mhsumon536.github.io/Motorcycle-Maintenance-/", icon: "fa-solid fa-motorcycle", color: "#4285f4", bn: "Motorcycle", en: "Motorcycle" },
             { url: "https://mhsumon536.github.io/daily-income-and-expense-account/", icon: "fa-solid fa-coins", color: "#ff8c00", bn: "আমার হিসাব ", en: "Amar Hisab" },
             { url: "https://mhsumon536.github.io/E-Banking-Account-/", icon: "fa-duotone fa-solid fa-users", color: "#c74600", bn: "পারিবারিক লেনদেন", en: "Family transactions" },
             { url: "https://mhsumon536.github.io/Personal-Meals-Account/", icon: "fa-solid fa-kitchen-set", color: "#85090d", bn: "ম্যাচের খাবার হিসাব", en: " meal calculation" },       
             { url: "https://mhsumon536.github.io/Duty-Register-/", icon: "fa-brands fa-squarespace", color: "#600275", bn: "ডিউটি রেজিস্টার", en: "Duty Register" },   
             { url: "https://mhsumon536.github.io/Logistic-Management-System-/", icon: "fa-brands fa-slack", color: "#ff0800", bn: "লজিস্টিক ম্যানেজমেন্ট সিস্টেম ", en: "Logistic Management System" },                                  
-            { url: "https://mhsumon536.github.io/BP-CC-FROM-NO-10/", icon: "fa-solid fa-chart-bar", color: "#5511f2", bn: "বিপি ফরম-১০", en: "BP Form-10" },
+            
             { isDivider: true },
-            { url: "https://ibas.finance.gov.bd/Security/Login/TaDaStaffEntry", icon: "fa-solid fa-chart-simple", color: "#ea4335", bn: "টিএ ডিএ এন্ট্রি", en: "TA DA entry " },
-            { url: "http://ngpims.police.gov.bd:31020/login", icon: "fa-solid fa-layer-group", color: "#414189", bn: "NGPIMS", en: "NGPIMS" },
-            { url: "https://www.ccdfpfm.gov.bd/", icon: "fa-solid fa-money-check-dollar", color: "#34a853", bn: "জিপিফ", en: "GPF Fund " },                               
-            { isDivider: true },                     
-            { url: "https://google.com/", icon: "fa-brands fa-google", color: "#4285f4", bn: "Search", en: "Search" },        
-            { url: "https://gemini.google.com/", icon: "fa-solid fa-chart-simple", color: "#4285f4", bn: "Gemini", en: "Gemini" },
-            { url: "https://youtube.com/", icon: "fa-brands fa-youtube", color: "#ff0000", bn: "ইউটিউব", en: "YouTube" },                       
+            { url: "https://saifrhaman536-ctrl.github.io/Nilphamari-District-Police-/", icon: "fa-solid fa-phone", color: "#4285f4", bn: "Nilphamari Police", en: "Nilphamari Police" },
+            { url: "https://mhsumon536.github.io/BP-CC-FROM-NO-10/", icon: "fa-solid fa-chart-bar", color: "#5511f2", bn: "বিপি ফরম-১০", en: "BP Form-10" },
+            { url: "https://iconverter.ipaedia.org/?fbclid=IwdGRjcARQlfFjbGNrBFCViGV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHsexenhIIR3KaerVIFN1iy_b0HeZgEZF4cev0zIBYu0pStVy_UcgcdDmUkty_aem_f4n8qK57IQSHW-u_JGKTjQ", icon: "fa-solid fa-file", color: "#e72ded", bn: "ফাইল কনভার্টার", en: " File Converter" },                   
+           
+            { isDivider: true },  
+            { url: "http://ngpims.police.gov.bd:31020/login", icon: "fa-solid fa-layer-group", color: "#414189", bn: "NGPIMS", en: "NGPIMS" },  
+            { url: "https://ibas.finance.gov.bd/Security/Login/TaDaStaffEntry", icon: "fa-solid fa-chart-simple", color: "#ea4335", bn: "টিএ ডিএ এন্ট্রি", en: "TA DA entry " },                
+            { url: "https://www.ccdfpfm.gov.bd/", icon: "fa-solid fa-money-check-dollar", color: "#34a853", bn: "জিপিফ", en: "GPF Fund " },                                  
+            { url: "https://gemini.google.com/", icon: "fa-solid fa-chart-simple", color: "#4285f4", bn: "Gemini", en: "Gemini" },         
             { url: "https://docs.google.com/spreadsheets/", icon: "fa-solid fa-file-excel", color: "#0f9d58", bn: "Sheets", en: "Sheets" },
             { url: "https://docs.google.com/document/", icon: "fa-solid fa-file-lines", color: "#4285f4", bn: "Docs", en: "Docs" },
             { url: "https://docs.google.com/forms/", icon: "fa-solid fa-align-justify", color: "#414189", bn: "Form", en: "Form" },
             { url: "https://docs.google.com/presentation/", icon: "fa-solid fa-file-powerpoint", color: "#f4b400", bn: "Slides", en: "Slides" },
             { url: "https://translate.google.com/", icon: "fa-solid fa-language", color: "#4285f4", bn: "Translate", en: "Translate" },
-            { url: "https://iconverter.ipaedia.org/?fbclid=IwdGRjcARQlfFjbGNrBFCViGV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHsexenhIIR3KaerVIFN1iy_b0HeZgEZF4cev0zIBYu0pStVy_UcgcdDmUkty_aem_f4n8qK57IQSHW-u_JGKTjQ", icon: "fa-solid fa-file", color: "#e72ded", bn: "ফাইল কনভার্টার", en: " File Converter" }
+            
         ];
 
         function renderMoreMenuConfig() {
@@ -1729,14 +1736,24 @@ MH PIMS:  ব্যক্তিগত তথ্য ব্যবস্থাপ�
         }
 
         function shareApp() {
-            const shareLink = window.location.href;
-            if (navigator.share) {
-                navigator.share({ title: 'PIMS App', url: shareLink });
-            } else {
-                navigator.clipboard.writeText(shareLink);
-                showToast(currentLang === 'bn' ? "লিঙ্ক কপি হয়েছে!" : "Link Copied!");
-            }
-        }
+  // এখানে আপনার কাঙ্খিত ওয়েব লিঙ্কটি দিন
+  const shareLink = 'https://mhsumon536.github.io/MH-PIMS-/'; 
+
+  if (navigator.share) {
+    navigator.share({
+      title: 'MH PIMS',
+      text: 'Check out MH PIMS app!', // চাইলে কিছু টেক্সট যোগ করতে পারেন
+      url: shareLink 
+    })
+    .then(() => console.log('Successful share'))
+    .catch((error) => console.log('Error sharing', error));
+  } else {
+    // শেয়ার অপশন না থাকলে ক্লিপবোর্ডে কপি হবে
+    navigator.clipboard.writeText(shareLink);
+    showToast(currentLang === 'bn' ? "লিঙ্ক কপি হয়েছে!" : "Link Copied!");
+  }
+}
+
 
         function switchScreen(screenId, element) {
             showLoader(currentLang === 'bn' ? "লোড হচ্ছে..." : "Loading...");
